@@ -8,4 +8,9 @@ class profil extends BaseController
     {
         return view('viewprofil');
     }
+
+    public function index(): string
+    {
+        return view('kontaksaya');
+    }
 }
